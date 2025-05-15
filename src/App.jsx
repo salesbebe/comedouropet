@@ -13,7 +13,7 @@ export function App() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div>
       <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-2xl font-bold text-center text-gray-800 mb-4">Atividade useState</h1>
         
@@ -21,7 +21,7 @@ export function App() {
           <p className="text-lg text-gray-700 mb-2">Número: {number}</p>
           <button 
             onClick={addNumber} 
-            className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition"
+            className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition"                             
           >
             Adicionar 100
           </button>
