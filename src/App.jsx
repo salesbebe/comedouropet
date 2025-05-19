@@ -18,8 +18,8 @@ export function App() {
 
   return (
     <div>
-      <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
-        <h1 className="text-2xl font-bold text-center text-gray-800 mb-4">Atividade useState</h1>
+      <div>
+        <h1>Atividade useState</h1>
         
         <div className="mb-4">
           <p className="text-lg text-gray-700 mb-2">Número: {num}</p>
